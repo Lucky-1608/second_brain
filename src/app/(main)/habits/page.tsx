@@ -1,5 +1,8 @@
 import { createServerClient } from '@supabase/ssr'
 import { cookies } from 'next/headers'
+
+export const dynamic = 'force-dynamic'
+
 import { HabitTracker } from '@/components/HabitTracker'
 
 export default async function HabitsPage() {

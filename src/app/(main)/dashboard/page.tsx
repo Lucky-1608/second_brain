@@ -1,4 +1,7 @@
 import { createServerClient } from '@supabase/ssr'
+
+export const dynamic = 'force-dynamic'
+
 import { cookies } from 'next/headers'
 import { format, startOfMonth, endOfMonth } from 'date-fns'
 import Link from 'next/link'
